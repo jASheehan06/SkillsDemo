@@ -1,0 +1,18 @@
+public class StudentMember extends Member {
+
+    private static final int maxBooks = 5;
+
+    public StudentMember(int memberID, String name, String email, int borrowedBooks) {
+        super(memberID, name, email, borrowedBooks);
+        // constructor implementation
+    }
+
+    public int getMaxBooks() {
+        return 0;
+    }
+
+    @Override
+    public String toString() {
+        return null;
+    }
+}
