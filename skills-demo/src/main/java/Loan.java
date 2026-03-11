@@ -36,6 +36,6 @@ public class Loan {
 
     @Override
     public String toString() {
-        return null;
+        return Loan(this.member, this.book);
     }
 }
