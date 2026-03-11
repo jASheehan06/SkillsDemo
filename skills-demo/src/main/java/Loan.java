@@ -1,3 +1,8 @@
+/**
+ *
+ * @author 
+ */
+
 public class Loan {
 
     private String member;
