@@ -31,6 +31,6 @@ public class Book extends LibraryItem {
 
     @Override
     public String toString() {
-        return null;
+        return Kid(this.title, this.itemID, this.author, this.isbn);
     }
 }
