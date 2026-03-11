@@ -9,16 +9,16 @@ public class Loan {
         this.book = book;
     }
 
-    public String getMember() {
-        return null;
+    public String getMember(String member) {
+        return member;
     }
 
     public void setMember(String member) {
         // setter implementation
     }
 
-    public String getBook() {
-        return null;
+    public String getBook(String book) {
+        return book;
     }
 
     public void setBook(String book) {
