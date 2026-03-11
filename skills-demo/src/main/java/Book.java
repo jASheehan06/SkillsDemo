@@ -19,6 +19,7 @@ public class Book extends LibraryItem {
 
     public void setAuthor(String author) {
         // setter implementation
+        this.author = author;
     }
 
     public String getIsbn() {
@@ -27,6 +28,7 @@ public class Book extends LibraryItem {
 
     public void setIsbn(String isbn) {
         // setter implementation
+        this.isbn = isbn;
     }
 
     @Override
