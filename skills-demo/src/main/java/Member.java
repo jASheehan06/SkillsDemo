@@ -37,6 +37,22 @@ public class Member {
         return 0;
     }
 
+
+    public void incrementBorrowedBooks() {
+        borrowedBooks++;
+    }
+    
+    public void decrementBorrowedBooks() {
+        if (borrowedBooks > 0) borrowedBooks--;
+    }
+    
+    public abstract int calculateBorrowLimit();
+
+    
+    public boolean canBorrow() {
+        return borrowedBooks < calculateBorrowLimit();
+    }
+    
     public void setBorrowedBooks(int borrowedBooks) {
         // setter implementation
     }
