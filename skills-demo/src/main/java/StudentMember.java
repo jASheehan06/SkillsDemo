@@ -1,3 +1,8 @@
+/**
+ *
+ * @author 
+ */
+
 public class StudentMember extends Member {
 
     private static final int maxBooks = 5;
