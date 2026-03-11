@@ -33,6 +33,7 @@ public class Member {
 
     public void setEmail(String email) {
         // setter implementation
+        this.email = email;
     }
 
     public int getBorrowedBooks() {
@@ -57,10 +58,12 @@ public class Member {
     
     public void setBorrowedBooks(int borrowedBooks) {
         // setter implementation
+        this.borrowedBooks = borrowedBooks;
     }
 
     public void calculateBorrowLimit() {
         // method implementation
+        
     }
 
     @Override
