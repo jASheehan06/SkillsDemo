@@ -15,6 +15,7 @@ public class Member {
 
     public void setMemberID(int memberID) {
         // setter implementation
+        this.memberID = memberID;
     }
 
     public String getName() {
@@ -23,6 +24,7 @@ public class Member {
 
     public void setName(String name) {
         // setter implementation
+        this.name = name;
     }
 
     public String getEmail() {
