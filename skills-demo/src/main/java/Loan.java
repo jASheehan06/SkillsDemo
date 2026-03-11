@@ -5,8 +5,6 @@ public class Loan {
 
     public Loan(String member, String book) {
         // constructor implementation
-        this.member = member;
-        this.book = book;
     }
 
     public String getMember(String member) {
@@ -15,6 +13,7 @@ public class Loan {
 
     public void setMember(String member) {
         // setter implementation
+        this.member = member;
     }
 
     public String getBook(String book) {
@@ -23,6 +22,7 @@ public class Loan {
 
     public void setBook(String book) {
         // setter implementation
+        this.book = book;
     }
 
     public void getLoanDetails() {
