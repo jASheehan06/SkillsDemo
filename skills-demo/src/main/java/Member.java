@@ -1,3 +1,8 @@
+/**
+ *
+ * @author 
+ */
+
 public class Member {
 
     private int memberID;
@@ -63,6 +68,7 @@ public class Member {
 
     public void calculateBorrowLimit() {
         // method implementation
+        if 
         
     }
 
