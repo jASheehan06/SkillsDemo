@@ -4,11 +4,13 @@
  */
 
 public class StaffMember extends Member {
+    
 
-    private static final int maxBooks = 15;
+    private int maxBooks; 
 
     public StaffMember(int memberID, String name, String email, int borrowedBooks) {
         super(memberID, name, email, borrowedBooks);
+        this.maxBooks = 15; 
         // constructor implementation
     }
 
