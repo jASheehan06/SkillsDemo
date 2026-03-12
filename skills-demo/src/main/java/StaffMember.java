@@ -13,7 +13,7 @@ public class StaffMember extends Member {
     }
 
     public int getMaxBooks() {
-        return 0;
+        return maxBooks;
     }
 
     @Override
