@@ -5,9 +5,8 @@
 
 public class StaffMember extends Member {
     
-
-    private int maxBooks; 
-
+    private static final int maxBooks = 15;
+    
     public StaffMember(int memberID, String name, String email, int borrowedBooks) {
         super(memberID, name, email, borrowedBooks);
         this.maxBooks = 15; 
