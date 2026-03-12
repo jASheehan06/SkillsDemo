@@ -5,6 +5,7 @@
 
 public abstract class Member {
 
+    // Declaring private variables;
     private int memberID;
     private String name;
     private String email;
