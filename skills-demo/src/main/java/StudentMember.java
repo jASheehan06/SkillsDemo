@@ -9,7 +9,7 @@ public class StudentMember extends Member {
 
     public StudentMember(int memberID, String name, String email, int borrowedBooks) {
         super(memberID, name, email, borrowedBooks);
-        // constructor implementation
+        
     }
 
     public int getMaxBooks() {
