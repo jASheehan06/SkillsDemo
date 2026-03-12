@@ -71,7 +71,7 @@ public abstract class Member {
     // Class is now abstract to support this abstract method
     public abstract int calculateBorrowLimit();
 
-    // Boolean that checks if the amount of books they want to
+    // Boolean that checks if the amount of books the user wants to
     // borrow is within their borrow limits
     public boolean canBorrow() {
         return borrowedBooks < calculateBorrowLimit();
