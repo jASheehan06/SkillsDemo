@@ -18,6 +18,6 @@ public class StaffMember extends Member {
 
     @Override
     public String toString() {
-        return null;
+        return "Staff Member [Max Books Allowed = " + maxBooks + "]";         
     }
 }
