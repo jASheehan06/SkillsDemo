@@ -9,7 +9,6 @@ public class StaffMember extends Member {
     
     public StaffMember(int memberID, String name, String email, int borrowedBooks) {
         super(memberID, name, email, borrowedBooks);
-        this.maxBooks = 15; 
         // constructor implementation
     }
 
@@ -17,6 +16,11 @@ public class StaffMember extends Member {
         return maxBooks;
     }
 
+    @Override
+    public int calculateBorrowLimit() { 
+        return maxBooks;
+    }
+    
     @Override
     public String toString() {
         return "Staff Member [Max Books Allowed = " + maxBooks + "]";         
