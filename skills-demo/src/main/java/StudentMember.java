@@ -17,6 +17,12 @@ public class StudentMember extends Member {
     }
 
     @Override
+    public int calculateBorrowLimit() {
+        return maxBooks;
+    }
+
+    
+    @Override
     public String toString() {
         return "Student Member [Max Books Allowed = " + maxBooks + "]"; 
     }
