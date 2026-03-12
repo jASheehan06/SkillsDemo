@@ -1,6 +1,6 @@
 /**
  *
- * @author 
+ * @author Shane Caulfield
  */
 
 public class StaffMember extends Member {
