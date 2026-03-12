@@ -13,11 +13,11 @@ public class StudentMember extends Member {
     }
 
     public int getMaxBooks() {
-        return 0;
+        return maxBooks;
     }
 
     @Override
     public String toString() {
-        return null;
+        return "Student Member [Max Books Allowed = " + maxBooks + "]"; 
     }
 }
