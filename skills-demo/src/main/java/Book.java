@@ -1,6 +1,6 @@
 /**
  *
- * @author 
+ * @author Thomas Sharp
  */
 
 public class Book extends LibraryItem {
