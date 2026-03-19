@@ -14,7 +14,7 @@ public class Book extends LibraryItem {
     }   
 
     public String getAuthor() {
-        return null;
+        return author;
     }
 
     public void setAuthor(String author) {
@@ -23,7 +23,7 @@ public class Book extends LibraryItem {
     }
 
     public String getIsbn() {
-        return null;
+        return isbn;
     }
 
     public void setIsbn(String isbn) {
