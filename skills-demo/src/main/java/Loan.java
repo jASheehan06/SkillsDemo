@@ -10,6 +10,8 @@ public class Loan {
 
     public Loan(String member, String book) {
         // constructor implementation
+        this.member = member;
+        this.book = book;
     }
 
     public String getMember(String member) {
@@ -32,6 +34,7 @@ public class Loan {
 
     public void getLoanDetails() {
         // method implementation
+        return loanDetails;
     }
 
     @Override
