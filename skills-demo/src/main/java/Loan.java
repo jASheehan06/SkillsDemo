@@ -1,6 +1,6 @@
 /**
  *
- * @author 
+ * @author Alex Sharp
  */
 
 public class Loan {
