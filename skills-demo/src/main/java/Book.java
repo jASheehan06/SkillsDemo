@@ -11,6 +11,8 @@ public class Book extends LibraryItem {
     public Book(String title, int itemID, String author, String isbn) {
         super(title, itemID);
         // constructor implementation
+        this.title = title;
+        this.itemID = itemID;
     }   
 
     public String getAuthor() {
