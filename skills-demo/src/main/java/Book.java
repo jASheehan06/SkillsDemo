@@ -7,6 +7,8 @@ public class Book extends LibraryItem {
 
     private String author;
     private String isbn;
+    private String title;
+    private int itemID;
 
     public Book(String title, int itemID, String author, String isbn) {
         super(title, itemID);
