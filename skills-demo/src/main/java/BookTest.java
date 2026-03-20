@@ -22,7 +22,9 @@ public class MemberTest {
         System.out.println(student);
 
         // Test getters Name, Email, Borrowed Books, Borrow Limit
-          
+        System.out.println("Email: " + item.Email());          
+        System.out.println("Borrowed Books: " + );                               
+        System.out.println("Borrow Limit: " + );             
 
         // Test setters setName Alice Smith, email alice.smith@example.com
         // Test setters
