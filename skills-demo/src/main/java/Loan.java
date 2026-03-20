@@ -11,8 +11,30 @@ public class Loan {
     private String book;
 
     public Loan(String member, String book) {
+        
+    // Code and logic to add to Loan Class constructor
+
+      if (!book.isAvailable()) { 
+            throw new IllegalStateException("Book is not available."); 
+        } 
+  
+
+        if (!member.canBorrow()) { 
+            throw new IllegalStateException("Borrow limit reached."); 
+        } 
+
+        // Initialise member  
         this.member = member;
+
+        // Initialise book 
         this.book = book;
+
+        // Set book availability to false  
+        book.setAvailable(false);
+
+        // Increment member borrowed books
+        member.incrementBorrowedBooks();
+        
     }
 
     public String getMember() {
