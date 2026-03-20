@@ -1,3 +1,4 @@
+
 /**
  *
  * @author Thomas Sharp
@@ -8,9 +9,9 @@ public class Book extends LibraryItem {
     private String author;
     private String isbn;
     private String title;
-    private int itemID;
+    private String itemID;
 
-    public Book(String title, int itemID, String author, String isbn) {
+    public Book(String title, String itemID, String author, String isbn) {
         super(title, itemID);
         // constructor implementation
         this.title = title;
