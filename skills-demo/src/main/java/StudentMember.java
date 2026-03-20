@@ -24,6 +24,6 @@ public class StudentMember extends Member {
     
     @Override
     public String toString() {
-        return "Student Member [Max Books Allowed = " + maxBooks + "]"; 
+        return super.toString+"Student Member [Max Books Allowed = " + maxBooks + "]"; 
     }
 }
