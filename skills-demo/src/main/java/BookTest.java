@@ -1,48 +1,69 @@
-// Insert package name if needed
+//Insert package name
+import com.mycompany.skills.demo.StaffMember;
+import com.mycompany.skills.demo.StudentMember;
 
 /**
  *
- * @author Student Name
+ * @author Student Name 
  */
-public class BookTest {
+public class MemberTest {
     public static void main(String[] args) {
-        System.out.println("=== Book Test ===");
+        System.out.println("=== Member Class Tests ===");
 
-        // Create a Book instance
-        Book item = new Book("BOO1", "Java Programming", "J. Smith", "12345");
+        // Create a StudentMember object
+        StudentMember student = new StudentMember(101, "John Doe", "john.doe@example.com", 0);
+        System.out.println(student);        
 
-        // Print initial state
-        System.out.println("Initial Book: " + item);
+        // Create a StaffMember object
+        StaffMember staff = new StaffMember(202, "John Bob", "john.Bob@example.com", 1);
+        System.out.println(student);   
+        
+        System.out.println("\nCreated Student Member:");
+        System.out.println(student);
 
-        // Borrow the book
-        System.out.println("\nBorrowing the book...");
-        if (item.isAvailable()) {
-            // Set book availability to false
-            item.setAvailable(false);
-            System.out.println("Book borrowed successfully.");
-        } else {
-            System.out.println("Book is not available to borrow.");
-        }
+        // Test getters Name, Email, Borrowed Books, Borrow Limit
+          
 
-        // Attempt to borrow again (should fail)
-        System.out.println("\nAttempting to borrow again...");
-        if (!item.isAvailable()) {
-            System.out.println("Book is already on loan.");
-        } else {
-            item.setAvailable(false);
-        }
+        // Test setters setName Alice Smith, email alice.smith@example.com
+        // Test setters
+        item.setName("Alice Smith");
+        item.setEmail("alice.smith@example.com");           
 
-        System.out.println("Toggle Availability Status: " + item.isAvailable());
 
-        // Return the book
-        System.out.println("\nReturning the book...");
-        // Set book availability to true
-        item.setAvailable(true);
+        System.out.println("Updated Student Member:");
+        System.out.println(student);
 
-        // Text when book is returned
-        System.out.println("Book returned successfully.");
+        // Test borrow books increment/decrement
+        System.out.println("\nSimulate borrowing 3 books...");
+        student.incrementBorrowedBooks();
 
-        // Final state
-        System.out.println("\nFinal Book: " + item);
+
+        System.out.println("Borrowed Books: " + student.getBorrowedBooks()); // 3
+
+        System.out.println("Simulate returning 2 books...");
+        student.decrementBorrowedBooks();
+
+
+        System.out.println("Borrowed Books: " + student.getBorrowedBooks()); // 1
+
+        // -------------------- TEST STAFF MEMBER --------------------
+        //Create a staff member 201, "Bob", bob@example.com
+
+
+        // Test getters
+
+
+        // Test setters
+
+
+        // Test borrow books increment/decrement
+        System.out.println("\nSimulate borrowing 5 books...");
+        for (int i = 0; i < 5; i++) staff.incrementBorrowedBooks();
+        System.out.println("Borrowed Books: " + staff.getBorrowedBooks()); // 5
+
+        System.out.println("Simulate returning 3 books...");
+
+
+        System.out.println("\n=== Member Tests Completed ===");
     }
 }
