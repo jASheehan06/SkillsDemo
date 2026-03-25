@@ -1,3 +1,6 @@
+//Insert package name
+package com.mycompany.skills.demo;
+
 /**
  *
  * @author Caelin Whelan
