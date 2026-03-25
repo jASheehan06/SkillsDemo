@@ -1,6 +1,5 @@
 //Insert package name
-import com.mycompany.skills.demo.StaffMember;
-import com.mycompany.skills.demo.StudentMember;
+package com.mycompany.skills.demo;
 
 /**
  *
