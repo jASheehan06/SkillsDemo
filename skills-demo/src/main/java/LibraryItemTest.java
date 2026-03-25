@@ -1,4 +1,5 @@
 //Insert package name
+package com.mycompany.skills.demo;
 
 /**
  *
