@@ -73,7 +73,7 @@ public class ReturnBook extends javax.swing.JDialog {
         jLabel1.setFont(new java.awt.Font("sansserif", 0, 24)); // NOI18N
         jLabel1.setText("Return Book:");
 
-        RB_Btn1.setText("Okay");
+        RB_Btn1.setText("OK");
         RB_Btn1.addActionListener(this::RB_Btn1ActionPerformed);
 
         RB_Btn2.setText("Cancel");
